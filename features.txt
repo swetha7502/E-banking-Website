@@ -1,0 +1,6 @@
+1. landing page
+2. Account creation.
+3. Transaction.
+4. Loan.
+5. Balance.
+6. 

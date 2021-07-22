@@ -1,0 +1,144 @@
+body{
+padding: 56px 0 0 0;
+}
+
+.navbar-dark{
+	background-color: rgb(242.25, 12.75, 12.75);
+}
+.jumbotron{
+	background-color:rgb(242.25, 12.75, 12.75,0.2); 
+}
+.jumbotron h2{
+	font-size: 50px;
+
+	margin-bottom: 17px;
+
+}
+.jumbotron p{
+	 
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+.row-content{
+	padding: 50px 20px;
+}
+.but{
+	color: rgb(242.25, 12.75, 12.75);
+	padding: 7px 10px;
+	background-color: white;
+	border: 2px solid white;
+}
+.but:hover{
+	background-color:rgb(242.25, 12.75, 12.75) ;
+	color: white;
+	transition: 1s;
+}
+.footer{
+	background-color:rgb(242.25, 12.75, 12.75,0.2);
+	padding: 50px 0 20px;
+}
+.footer a{
+	color: black;
+	text-decoration: none;
+}
+.footer .fa{
+	color: white;
+}
+.footer a:hover,.footer .fa:hover{
+	color: red;
+	transition: 1s;
+
+}
+@media (max-width: 576px){
+	.jumbotron h2{
+	font-size: 20px;
+}
+.sec{
+	min-height: 60vh;
+}
+	
+
+
+.jumbotron p{
+	 
+	font-size: 12px;
+	margin-bottom: 25px;
+}
+}
+.sec{
+	min-height: 70vh;
+}
+.container h3{
+	font-variant: small-caps;
+	color: red;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+	font-size: 40px;
+}
+ul {
+	list-style: none;
+}
+ul li{
+	margin-bottom: 8px;
+}
+.fa-thumb-tack{
+	color: red;
+}
+.direct{
+	background-color:rgb(242.25, 12.75, 12.75) ;
+	color: white;
+	margin-top: 20px;
+	padding: 7px 10px;
+	
+	border: 2px solid red;
+}
+.direct:hover{
+	color: rgb(242.25, 12.75, 12.75);
+	background-color: white;
+	transition: 1s;
+}
+.card{
+margin-top: 14px;
+position: relative;
+}
+.card img{
+	margin: 20px auto 10px ;
+}
+.card a{
+	color: red;
+	font-size: 14px;
+
+}
+.card-header{
+	background-color: transparent;
+}
+.hov:hover .card{
+	background-color: red;
+	color: white;
+	top: -10px;
+	transition: 0.5s;
+}
+#subdet{
+	color: red;
+	font-size: 20px;
+}
+/*-----Login-----*/
+.headerall{
+	color: red;
+}
+#userlog{
+	display: none;
+}
+.head{
+	width: 60%;
+	margin: auto;
+	color: red;
+	font-size: 40px;
+}
+.head h2{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 40px;
+	font-variant: small-caps;
+}
